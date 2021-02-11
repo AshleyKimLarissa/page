@@ -5,13 +5,13 @@
 		<script>
 			"use strict";
 
-function laenge(s) {
-  return s.length;
+function toFahrenheit(celsius) {
+  return s 1.8 * celsius + 32;
 }
 
 			function clicked() {
 				let eingabe = document.getElementById("idEingabe").value;
-				let ausgabe = "Die Länge der Eingabe " + eingabe + " ist " + laenge(eingabe) + ".";
+				let ausgabe = "Die Temperatur von " + eingabe + " Grad Celsius ist " + toFahrenheit(eingabe) + "Grad Fahrenheit.";
 				document.getElementById("idAusgabe").innerHTML = ausgabe;
 			}
 
